@@ -1,0 +1,14 @@
+
+Single Pass Algorithm:
+
+- when you see a label, you dont know the address
+- the main idea is to generate the bytecode as you go. Whenever you need to 
+  generate for a forward label, stick a hole in your bytecode with a pointer to that hole 
+  Once you see the actual address, come back to the hole and fill it in 
+
+
+  ------------------------------------
+
+  Garbage Collection 
+
+  
